@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Source+Sans+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Noto+Sans+JP:wght@300;400&family=Roboto:wght@300&display=swap');
 body {
     margin: 0 auto;
     padding: 0;
 }
 div.div-container {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 h1.titleClass {
     font-size: 35pt;
     text-align: center;
+    text-decoration: underline;
+    font-style: normal;
 }
-h4#subtitle {
+h4#mainsubtitle {
     text-align: center;
 }
 div.menu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
-    height: 6vh;
+    height: 6.2vh;
     background-color: #272727;
     position: -webkit-sticky;
     position: sticky;
@@ -39,7 +42,7 @@ div.aholoder {
 }
 a.menu-item{
     transition: 0.5s ease;
-    padding-top: 1.35vh;
+    padding-top: 2vh;
     padding-bottom: 2vh;
     padding-left: 40px;
     padding-right: 40px;
