@@ -74,12 +74,12 @@ function checkCtnr() {
 
         religionBtn.style.backgroundColor = "#272727"
         originBtn.style.backgroundColor = "#272727"
-        homeBtn.style.backgroundColor = "#272727"
+        homeBtn.style.backgroundColor = "#353535"
         holidaysBtn.style.backgroundColor = "#272727"
 
 
         religionContainer.style.display = "none"
-        homeContainer.style.display = "none"
+        homeContainer.style.display = "block"
         originContainer.style.display = "none"
         holidaysContainer.style.display = "none"
 
