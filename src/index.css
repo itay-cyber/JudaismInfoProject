@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+div.div-container {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1.titleClass {
+    font-size: 35pt;
+}
+div.menu {
+    width: 100%;
+    height: 6vh;
+    background-color: #272727;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+
+    list-style: none;
+}
+div.aholoder {
+    display: inline-block;
+    margin-right: -4px;
+    bottom: 0;
+    height: 100%;
+    cursor: default;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   
+
+}
+a.menu-item{
+    transition: 0.5s ease;
+    padding-top: 1.35vh;
+    padding-bottom: 1.35vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #272727;
+    color: #ffffff;
+    bottom: 0;
+    display: inline-block;
+    cursor: default;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    
+    
+}
