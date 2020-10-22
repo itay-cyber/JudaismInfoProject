@@ -70,6 +70,20 @@ function checkCtnr() {
         originContainer.style.display = "none"
         holidaysContainer.style.display = "none"
     }
+    else {
+
+        religionBtn.style.backgroundColor = "#272727"
+        originBtn.style.backgroundColor = "#272727"
+        homeBtn.style.backgroundColor = "#272727"
+        holidaysBtn.style.backgroundColor = "#272727"
+
+
+        religionContainer.style.display = "none"
+        homeContainer.style.display = "none"
+        originContainer.style.display = "none"
+        holidaysContainer.style.display = "none"
+
+    }
 }
 
 
